@@ -31,6 +31,9 @@ export function AppAside() {
           </li>
           <li className="aside-row">
             <ElementIcon />
+            <NavLink to="blocks">Bloki</NavLink>
+          </li>
+          <li className="aside-row">
             <NavLink to="blog">Blog</NavLink>
           </li>
         </ul>

@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 
 import { NotFound } from './App/Components/NotFound/NotFound';
 
+import Blog from './App/Blog/Blog';
 import { Blocks } from './App/Blocks';
 import { Layout } from './App/Layout';
 import { Dashboard } from './App/Dashboard';
@@ -20,7 +21,8 @@ export function App() {
           <Route path="cv/*" element={<CV />} />
           <Route path="exercises/*" element={<Exercises />} />
           <Route path="calendar/*" element={<Calendar />} />
-          <Route path="blog/*" element={<Blocks />} />
+          <Route path="blocks/*" element={<Blocks />} />
+          <Route path="blog/" element={<Blog />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
