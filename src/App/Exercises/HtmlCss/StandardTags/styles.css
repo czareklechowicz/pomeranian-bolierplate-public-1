@@ -1,0 +1,66 @@
+.h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.h3 .first-title-span {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.second-content span:nth-of-type(2) {
+  font-style: italic;
+}
+
+.second-content span:nth-of-type(5) {
+  text-decoration: line-through;
+}
+
+.second-content .quote-span {
+  quotes: '“' '”';
+}
+
+.second-content .quote-span::before {
+  content: open-quote;
+}
+
+.second-content .quote-span::after {
+  content: close-quote;
+}
+
+.h3 .list-span {
+  text-decoration: underline;
+}
+
+.small-date {
+  font-size: smaller;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.list-title {
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-bottom: 1.67em;
+}
+
+.list-title span {
+  font-style: italic;
+}
+
+.list {
+  margin: 1em 2em;
+}
+
+.list div {
+  display: list-item;
+}
