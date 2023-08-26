@@ -1,0 +1,18 @@
+.exercise-item-text {
+  font-size: 24px;
+}
+
+.exercise-item-button {
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  color: white;
+  background-color: #fe3756;
+  border: none;
+  box-shadow: 1px 1px 20px rgb(73, 73, 73);
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.exercise-item-button:hover {
+  background-color: #af253a;
+}
