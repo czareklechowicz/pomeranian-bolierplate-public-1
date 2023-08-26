@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+.default-font {
+  font-family: sans-serif;
+}
+
+.f-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.f-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.f-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-container {
+  padding: 1em;
+}
+
+.button-container button {
+  padding: 1em 1.5em;
+  margin: 1em;
+  border-radius: 8px;
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  box-shadow: 2px 5px 20px rgb(73, 73, 73);
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: blueviolet;
+  color: white;
+}
