@@ -6,6 +6,8 @@ import { blockRouterMetaData as blockRouterMetaDataTextFundaments } from './Text
 import { blockRouterMetaData as blockRouterMetaDataStandardTags } from './StandardTags/router-data';
 import { blockRouterMetaData as blockRouterMetaDataGoogleFonts } from './GoogleFonts/router-data';
 import { blockRouterMetaData as blockRouterMetaDataCssAnimations } from './CssAnimations/router-data';
+import { blockRouterMetaData as blockRouterMetaDataCssColors } from './CssColors/router-data';
+import { blockRouterMetaData as blockRouterMetaDataImageFiles } from './ImageFiles/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -14,5 +16,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataStandardTags,
   blockRouterMetaDataGoogleFonts,
   blockRouterMetaDataCssAnimations,
+  blockRouterMetaDataCssColors,
+  blockRouterMetaDataImageFiles,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
