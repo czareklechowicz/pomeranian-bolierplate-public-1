@@ -13,6 +13,7 @@ import { blockRouterMetaData as blockRouterMetaDataCssFilter } from './CssFilter
 import { blockRouterMetaData as blockRouterMetaDataMediaFiles } from './MediaFiles/router-data';
 import { blockRouterMetaData as blockRouterMetaDataBoxModel } from './BoxModel/router-data';
 import { blockRouterMetaData as blockRouterMetaDataHtmlTables } from './HtmlTables/router-data';
+import { blockRouterMetaData as blockROuterMetaDataTablesTennis } from './TablesTennis/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -28,5 +29,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataMediaFiles,
   blockRouterMetaDataBoxModel,
   blockRouterMetaDataHtmlTables,
+  blockROuterMetaDataTablesTennis,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
