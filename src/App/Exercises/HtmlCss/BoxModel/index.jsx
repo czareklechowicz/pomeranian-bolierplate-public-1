@@ -17,7 +17,7 @@ export function BoxModel() {
         reprehenderit non delectus ipsum cum? Ducimus, officia quae quasi beatae
         aliquam dicta fuga.
       </div>
-      <div className="box">
+      <div className="box second-box">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolores
         dolorum sunt excepturi suscipit deserunt provident eius magnam quisquam
         amet, labore est placeat! Omnis maiores iste amet cupiditate ut optio
@@ -45,7 +45,7 @@ export function BoxModel() {
         reiciendis reprehenderit non delectus ipsum cum? Ducimus, officia quae
         quasi beatae aliquam dicta fuga.
       </div>
-      <div className="box">
+      <div className="box third-box">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolores
         dolorum sunt excepturi suscipit deserunt provident eius magnam quisquam
         amet, labore est placeat! Omnis maiores iste amet cupiditate ut optio
