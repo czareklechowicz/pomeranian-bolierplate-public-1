@@ -10,6 +10,16 @@
   overflow-x: auto;
 }
 
+.second-box {
+  width: 40em;
+  margin: 2em;
+  padding: 5em;
+}
+
+.third-box {
+  width: 20vw;
+}
+
 .box span {
   display: inline-block;
   margin: 10px;
@@ -21,7 +31,6 @@
 span {
   display: block;
 }
-
 
 /* Block: h1, div, p 
 Inline: span, b, strong, i, a  */
