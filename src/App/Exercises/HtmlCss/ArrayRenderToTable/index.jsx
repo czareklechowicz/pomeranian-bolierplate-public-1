@@ -39,7 +39,7 @@ const bands = [
   },
 ];
 
-function BandsRow({ band, yearFormed, albums, mostFamousSong, key }) {
+function BandsRow({ band, yearFormed, albums, mostFamousSong }) {
   return (
     <tr key={band + yearFormed}>
       <td>{band}</td>
