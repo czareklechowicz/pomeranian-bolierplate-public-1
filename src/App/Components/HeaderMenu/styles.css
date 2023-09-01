@@ -1,0 +1,22 @@
+.settings-icon {
+  margin-right: 1em;
+}
+
+.header-menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1em 0 0.5em;
+}
+
+.header-menu-content-title {
+  font-weight: bold;
+}
+
+.header-menu-content-title span {
+  font-weight: normal;
+}
