@@ -1,0 +1,82 @@
+.position__wrapper div {
+  margin: 50px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid green;
+}
+
+/* Position Absolute */
+
+.div1 {
+  position: relative;
+}
+
+.div1__absolute {
+  position: absolute;
+  left: 150px;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+/* Position Sticky */
+
+.div2 {
+  position: relative;
+  overflow: scroll;
+}
+
+.div2__sticky {
+  position: sticky;
+  top: 0;
+  background-color: yellowgreen;
+}
+
+/* Position Fixed */
+
+.div3 {
+  /* Przy position:fixed ta instrukcja jest ignorowana */
+  position: relative;
+  overflow: scroll;
+}
+
+.div3__fixed {
+  /* Ustawienie względem okna przeglądarki */
+  position: fixed;
+  top: 0;
+  background-color: magenta;
+}
+
+/* Z-Index */
+
+.div4 {
+  position: relative;
+}
+
+.div4__absolute_1 {
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  z-index: 2;
+}
+
+.div4__absolute_2 {
+  position: absolute;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  z-index: 1;
+}
+
+.div4__absolute_3 {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: magenta;
+  z-index: 3;
+}
