@@ -125,10 +125,10 @@ export const Numbers = () => {
   // Math.round() - zaokrągla liczbę do najbliższej liczby całkowitej
   console.log(Math.round(3.1412312141412));
 
-  // Math.floor() - zaokrągla liczbę w dół do jabliższej liczby całkowitej
+  // Math.floor() - zaokrągla liczbę w dół do najbliższej liczby całkowitej
   console.log(Math.floor(3.8412312141412));
 
-  // Math.ceil() - zaokrągla liczbę w górę do jabliższej liczby całkowitej
+  // Math.ceil() - zaokrągla liczbę w górę do najbliższej liczby całkowitej
   console.log(Math.ceil(3.1412312141412));
 
   // Math.sqrt() - wywołaj metodę odpowiedzialną za pierwiastkowanie
