@@ -8,20 +8,20 @@ export const MyInfo = () => {
       <RoundImage
         size="150px"
         url={
-          'https://media.licdn.com/dms/image/D4E03AQHREH3X6V-64Q/profile-displayphoto-shrink_800_800/0/1684427938346?e=2147483647&v=beta&t=nsfR5W3Mi-du6tI1pZsn7_Ouar0KhMaDltWJu23MnyA'
+          'https://www.e-korepetycje.net/images/users/3655/365553/230_user-image.jpg?2410191610'
         }
       />
       <div className="my-info-box">
-        <span className="main-text">Konrad Wojtyło</span>
-        <span className="sub-text">Brzeg</span>
+        <span className="main-text">Czarek Lechowicz</span>
+        <span className="sub-text">Poznań</span>
       </div>
       <div className="my-info-box">
         <span className="sub-text">e-mail</span>
-        <span className="sub-text">gmail@gmail.com</span>
+        <span className="sub-text">czareklechowicz2000@wp.pl</span>
       </div>
       <div className="my-info-box">
         <span className="sub-text">telefon</span>
-        <span className="sub-text">999 999 999</span>
+        <span className="sub-text">530 509 988</span>
       </div>
     </div>
   );

@@ -11,12 +11,12 @@ export const HeaderMenu = () => {
       <RoundImage
         size="60px"
         url={
-          'https://media.licdn.com/dms/image/D4E03AQHREH3X6V-64Q/profile-displayphoto-shrink_800_800/0/1684427938346?e=2147483647&v=beta&t=nsfR5W3Mi-du6tI1pZsn7_Ouar0KhMaDltWJu23MnyA'
+          'https://www.e-korepetycje.net/images/users/3655/365553/230_user-image.jpg?2410191610'
         }
       />
       <div className="header-menu-content">
-        <span className="header-menu-content-title">Konrad</span>
-        <span className="header-menu-content-subtitle">kursant</span>
+        <span className="header-menu-content-title">Czarek</span>
+        <span className="header-menu-content-subtitle">Kursant</span>
       </div>
       <ToggleArrow className="toggle-icon" />
     </div>
