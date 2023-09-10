@@ -19,6 +19,10 @@ import { blockRouterMetaData as blockRouterMetaDataArrayRenderToTable } from './
 import { blockRouterMetaData as blockRouterMetaDataFloatsAndPositioning } from './FloatsAndPositioning/router-data';
 import { blockRouterMetaData as blockRouterMetaDataFloatsAndPositioningExercise } from './FloatsAndPositioningExercise/router-data';
 import { blockRouterMetaData as blockRouterMetaDataResponsiveWebDesign } from './RWD/router-data';
+import { blockRouterMetaData as blockRouterMetaDataSetTimeout } from './SetTimeout/router-data';
+import { blockRouterMetaData as blockRouterMetaDataVanishString } from './VanishString/router-data';
+
+
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -40,5 +44,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataFloatsAndPositioning,
   blockRouterMetaDataFloatsAndPositioningExercise,
   blockRouterMetaDataResponsiveWebDesign,
+  blockRouterMetaDataVanishString,
+  blockRouterMetaDataSetTimeout,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

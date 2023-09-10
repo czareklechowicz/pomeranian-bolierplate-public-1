@@ -9,6 +9,8 @@ import { blockRouterMetaData as blockRouterMetaDataNumbers } from './Numbers/rou
 import { blockRouterMetaData as blockRouterMetaDataJsNumbersTraining } from './JsNumbersTraining/router-data';
 import { blockRouterMetaData as blockRouterMetaDataComplexTypesInJs } from './ComplexTypesInJs/router-data';
 
+
+
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
   blockRouterMetaDataJsVariables2,
@@ -18,5 +20,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataNumbers,
   blockRouterMetaDataJsNumbersTraining,
   blockRouterMetaDataComplexTypesInJs,
+
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

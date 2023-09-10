@@ -7,6 +7,7 @@ import { Categories } from './Categories';
 import { ReactExercises, ReactExercisesItem } from './ReactExercises';
 import { NotFound } from '../Components/NotFound/NotFound';
 
+
 import './styles.css';
 
 export function Exercises() {
