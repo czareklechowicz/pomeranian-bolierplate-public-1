@@ -8,6 +8,7 @@ import { blockRouterMetaData as blockRouterMetaDataIfSwitch } from './IfSwitch/r
 import { blockRouterMetaData as blockRouterMetaDataNumbers } from './Numbers/router-data';
 import { blockRouterMetaData as blockRouterMetaDataJsNumbersTraining } from './JsNumbersTraining/router-data';
 import { blockRouterMetaData as blockRouterMetaDataComplexTypesInJs } from './ComplexTypesInJs/router-data';
+import { blockRouterMetaData as blockRouterMetaDataHitMoleGame } from './HitMoleGame/router-data';
 
 
 
@@ -20,6 +21,8 @@ export const blockRouterMetaData = [
   blockRouterMetaDataNumbers,
   blockRouterMetaDataJsNumbersTraining,
   blockRouterMetaDataComplexTypesInJs,
+  blockRouterMetaDataHitMoleGame,
+
 
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

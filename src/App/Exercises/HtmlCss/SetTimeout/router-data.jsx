@@ -1,4 +1,4 @@
-import React from 'react';
+import SetTimeout from './SetTimeout';
 
 export const blockRouterMetaData = {
   path: 'SetTimeout',

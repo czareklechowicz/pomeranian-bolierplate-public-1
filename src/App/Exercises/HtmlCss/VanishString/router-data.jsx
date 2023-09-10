@@ -1,4 +1,4 @@
-import { VanishString } from './index';
+import { VanishString } from './VanishString';
 
 export const blockRouterMetaData = {
   path: 'VanishString',
